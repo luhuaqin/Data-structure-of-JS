@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+  <title>Document</title>
+  <style>
+    /* #div1 {
+      border-top: 0.5px solid black;
+      width: 0.5px;
+    } */
+    /* #div1 {
+      border-style: solid;
+      border-color: black;
+      width: 0.5px;
+      transform: scale(0.5, 0.5);
+    } */
+    #div1 {
+      width: 0;
+      height: 0;
+      border-top: 50px solid blue;
+      border-bottom: 50px solid red;
+      border-left: 50px solid green;
+      border-right: 50px solid yellow;
+    }
+  </style>
+</head>
+<body>
+  <script src="./double-linked-list.js"></script>
+  <div id="div1"></div>
+  <script>
+    // setTimeout(function(){
+    //   console.log(1)},
+    // 0);  //宏
+
+    // new Promise(function(resolve,reject){
+    //   console.log(2);  // 1: 2
+    //   resolve();
+    // }).then(function(){
+    //   console.log(3) // wei
+    // }).then(function(){
+    //   console.log(4) // wei
+    // });
+
+    // process.nextTick(function(){
+    //   console.log(5) // 在主任务执行完后执行
+    // });
+
+    // console.log(6); // 2: 6
+    
+
+    // setTimeout(function() {
+    //   console.log(1) // hong  6: 1
+    // }, 0);
+
+    // new Promise(function(resolve, reject) {
+    //   console.log(2)  // 1: 2
+    //   for (var i = 0; i < 10000; i++) {
+    //     if(i === 10) {
+    //       console.log(10)  // 2: 10
+    //     }
+    //     i == 9999 && resolve();
+    //   }
+    //   console.log(3) // 3: 3
+    // }).then(function() {
+    //   console.log(4) // wei  5: 4
+    // })
+    // console.log(5); // 4: 5
+    // // 2 10 3 5 4 1
+
+    // console.log(undefined==null)  // true
+    // console.log(undefined===null) // false
+
+    // for(var i=0;i<5;i++){ 
+    //   setTimeout(function(){ 
+    //     console.log(i); // 5 5 5 5 5
+    //   },1000); 
+    // }
+
+    
+
+
+  </script>
+</body>
+</html>
